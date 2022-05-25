@@ -20,5 +20,5 @@
 #  - name: push image to dockerhub
 #   command: docker push triple3a/laravel-app 
 
-#  - name: run container from image
-#    command: docker run -d --name laravel-container -p 5000:80 triple3a-laravel-app
+  - name: run container from image
+    command: docker run -d --name mina -p 5000:80 devo-app
